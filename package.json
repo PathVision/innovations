@@ -1,34 +1,21 @@
 {
   "name": "imas-website",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "homepage": "pathvision.github.io",
-=======
->>>>>>> 162463e7ef721d5f02935b8619a3db30a17b638a
   "private": true,
+  "homepage": "https://pathvision.github.io/PathVision-IMAS",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
     "next": "^14.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-=======
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^14.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "framer-motion": "^11.0.0"
->>>>>>> 162463e7ef721d5f02935b8619a3db30a17b638a
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -37,10 +24,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.2.0",
-<<<<<<< HEAD
     "gh-pages": "^6.3.0",
-=======
->>>>>>> 162463e7ef721d5f02935b8619a3db30a17b638a
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.0.0"
